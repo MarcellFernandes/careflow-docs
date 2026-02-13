@@ -1,0 +1,30 @@
+site_name: CareFlow API Documentation
+site_description: REST API documentation for the CareFlow healthcare platform
+site_author: CareFlow
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+nav:
+  - Getting Started:
+      - About This Project: about-this-project.md
+      - About The Author: author.md
+      - Home: index.md
+      - Overview: overview.md
+      - Quick Start: quickstart.md
+      - cURL Examples: curl-examples.md
+  - Security:
+      - Authentication: authentication.md
+  - API Reference:
+      - Professionals: professionals.md
+      - Errors: errors.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
